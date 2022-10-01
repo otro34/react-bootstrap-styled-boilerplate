@@ -1,15 +1,27 @@
-
-import Alert from 'react-bootstrap/Alert';
-import Carrousel from './Carrousel'
+import Container from 'react-bootstrap/Container';
+import Row from 'react-bootstrap/Row';
+import Col from 'react-bootstrap/Col';
+import Alert from './Alert'
 
 const Home = () => {
 return (
-    <>
-        <Alert variant='primary'>
-            Veritica las novedades de la página!
-        </Alert>
-        <Carrousel />
-    </>
+    <Container>
+        <Row xs="auto">
+            <Col>
+                <Alert />
+            </Col>
+        </Row>
+        <Row xs="auto">
+            <Col>
+            <h3>
+                Disponible hoy!
+            </h3>
+            </Col>
+        </Row>
+    
+            
+        
+    </Container>
 )
 }
 
