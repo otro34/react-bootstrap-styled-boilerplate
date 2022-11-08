@@ -1,6 +1,8 @@
-# Getting Started with Create React App
+[![Node.js CI](https://github.com/otro34/react-bootstrap-styled-boilerplate/actions/workflows/node.js.yml/badge.svg)](https://github.com/otro34/react-bootstrap-styled-boilerplate/actions/workflows/node.js.yml)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# A Boilerplate for React apps
+
+Using React, react-bootstrap and styled-components
 
 ## Available Scripts
 
